@@ -9,11 +9,19 @@ function OpenMenu(){
 
 
 function scrollFunction() {
-    document.getElementById("navbar").style.position = "fixed";
+    let element = document.getElementById("navbar");
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    console.log( document.getElementById("navbar"));
-    document.getElementById("navbar").style.top = "10px"; 
+    element.style.position = "fixed";
+    element.style.width = "-webkit-fill-available";
+    element.style.background = "white";
+    element.style.color = "black";
+    element.style.boxShadow="0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)";
+
   } else {
-    document.getElementById("navbar").style.top = "0px";
+    element.style.top = "0px";
+    element.style.background = "none";
+    element.style.color = "darkslategrey";
+    element.style.boxShadow = "0px";
   }
+  
 }
