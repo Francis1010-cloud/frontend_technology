@@ -21,7 +21,7 @@ function scrollFunction() {
     element.style.top = "0px";
     element.style.background = "none";
     element.style.color = "darkslategrey";
-    element.style.boxShadow = "0px";
+    element.style.boxShadow = "none";
   }
   
 }

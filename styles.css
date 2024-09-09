@@ -95,6 +95,7 @@
     margin-bottom: 11%;
     font-weight: 600;
     font-family: sans-serif;
+    font-size: medium;
 }
 .user-img{
     opacity: 0.5;
@@ -132,11 +133,19 @@
 }
 .skill{
     letter-spacing: 10px;
+    text-align: left;
+    font-size: medium;
 }
 .loader-border{
     height: 30px;
     width: 100%;
-    border: 1px solid grey;
+    background: #f1f1f1 !important;
+}
+.loader-bar{
+    height: 30px;
+    background-color:#616161!important;
+    color: white;
+    justify-content: center;
 }
 
 
