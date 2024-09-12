@@ -23,5 +23,6 @@ function scrollFunction() {
     element.style.color = "darkslategrey";
     element.style.boxShadow = "none";
   }
-  
 }
+
+
