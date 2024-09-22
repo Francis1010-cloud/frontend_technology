@@ -13,6 +13,13 @@
     opacity: 0.8;
     position: relative;
     margin-bottom: 20px;
+    animation-name: header-background;
+    animation-duration: 2s;
+}
+
+@keyframes header-background {
+    from {height: 100px;opacity: 0.2;}
+    to {height: 510px;opacity: 0.8;}
 }
 
 .contact-container{
@@ -110,10 +117,16 @@
 }
 .name-section{
     margin-bottom: 11%;
+    animation-name: example;
+    animation-duration: 2s;
     font-weight: 600;
     font-family: sans-serif;
     font-size: medium;
 }
+@keyframes example {
+    from {margin-bottom: 0%;}
+    to {margin-bottom: 11%;}
+  }
 .user-img{
     opacity: 0.5;
 }
