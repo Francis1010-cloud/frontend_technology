@@ -12,10 +12,12 @@
     background-size: cover;
     opacity: 0.8;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .contact-container{
     background-image: url('Images/contact.jpg');
+    margin-top: 65px;
 }
 
 .navbar-container{
@@ -283,14 +285,23 @@ input{
     margin-bottom: 20px;
 }
 
-.fa{
-
+.contact-icons{
+    display: grid;
+    grid-template-columns: 1fr 13fr;
+    text-align: left;
 }
 
 .map-image{
     width: 60%;
 }
 
+.footer-icons{
+    font-size: 23px;
+}
+
+#left-nav{
+    display: inline-flex;
+}
 
 @media(max-width:1200px) {
     #left-nav {
@@ -338,6 +349,10 @@ input{
     .map-image{
         width: 100%;
     }
-} 
+    .contact-icons{
+        font-size: 12px;
+    }
+}
+
 
 
