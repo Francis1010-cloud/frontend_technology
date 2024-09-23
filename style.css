@@ -252,8 +252,7 @@
 .input-container{
     display: grid;
     grid-template-areas: "name-input email-input"
-                        "message-input message-input"
-                         ;
+                        "message-input message-input";
                         gap: 19px;
 }
 
@@ -316,7 +315,14 @@ input{
     display: inline-flex;
 }
 
-@media(max-width:1200px) {
+.tea-cup{
+    text-align: left;
+    margin-top: 28px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+@media(max-width:970px) {
     #left-nav {
         background-color: white;
         position: absolute;
@@ -345,7 +351,6 @@ input{
     
     .body-container{
         margin-top: 58px;
-        margin: 0% 2%;
     }
     .skill{
         padding: 20px 1px;
@@ -365,7 +370,17 @@ input{
     .contact-icons{
         font-size: 12px;
     }
+    .image-stack{
+        grid-template-columns: repeat(2,1fr);
+    }
+   .input-container{
+     grid-template-areas: "name-input name-input "
+                          "email-input email-input"
+                          "message-input message-input"
+   }
 }
+
+
 
 
 
