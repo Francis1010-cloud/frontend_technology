@@ -10,14 +10,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.8;
-    /* position: relative; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* opacity: 0.8; */
     margin-bottom: 20px;
     animation-name: header-background;
     animation-duration: 2s;
+}
+
+.positon-rel{
+    position: relative;
 }
 
 @keyframes header-background {
@@ -28,6 +28,13 @@
 .contact-container{
     background-image: url('Images/contact.jpg');
     margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 10px;
+    font-size: x-large;
 }
 
 .navbar-container{
@@ -70,6 +77,10 @@
     font-family: "Lato", sans-serif;
     letter-spacing: 10px;
     font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .background-clr-center{
