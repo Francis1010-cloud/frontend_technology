@@ -1,3 +1,5 @@
+
+
 .container{
     
 }
@@ -34,18 +36,18 @@
     color: white;
     font-family: "Lato", sans-serif;
     letter-spacing: 10px;
-    font-size: x-large;
+    /* font-size: x-large; */
 }
 
 .navbar-container{
     color: darkslategrey;
-    font-size: larger;
+    /* font-size: larger; */
     display: flex;
     justify-content: space-between;
 }
 .font-class-1{
     font-variant: small-caps;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 .font{
     font-family: "Lato", sans-serif;
@@ -76,7 +78,7 @@
     color: white;
     font-family: "Lato", sans-serif;
     letter-spacing: 10px;
-    font-size: x-large;
+    /* font-size: x-large; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -105,9 +107,10 @@
 
 .body-container{
     text-align: center;
-    padding: 5px 10px 5px 10px;
+    /* padding: 5px 10px 5px 10px; */
     color: grey;
     margin: 5% 13%;
+    width: min(100%,800px);
 }
 .body-text{
     padding: 1%;
@@ -122,20 +125,21 @@
     color: grey;
     padding: 3% 13%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2%;
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* gap: 2%; */
+    width: min(100%, 850px);
 }
 .user-data-section{
     text-align: left;
     line-height: 27px;
 }
 .name-section{
-    margin-bottom: 11%;
+    margin-bottom: 2%;
     animation-name: example;
     animation-duration: 2s;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-family: sans-serif;
-    font-size: medium;
+    /* font-size: medium; */
 }
 @keyframes example {
     from {margin-bottom: 0%;}
@@ -178,7 +182,7 @@
 .skill{
     letter-spacing: 10px;
     text-align: left;
-    font-size: medium;
+    /* font-size: medium; */
     padding: 13px 1px;
 }
 .loader-border{
@@ -202,14 +206,14 @@
     padding: 3%;
     text-align: center;
     color: white;
-    font-size: 16px;
+    /* font-size: 16px; */
     font-family: sans-serif;
     margin-top: 4%;
     gap: 6rem;
 }
 
 .font-14{
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 .line-het-31{
     line-height: 31px;
@@ -223,7 +227,7 @@
     letter-spacing: 10px;
     font-family: sans-serif;
     color: white;
-    font-size: 32px;
+    /* font-size: 32px; */
     /* position: relative; */
     display: flex;
     justify-content: center;
@@ -232,8 +236,9 @@
 }
 .image-stack{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: repeat(4,1fr); */
     gap: 10px;
+    width: min(100%, 918px);
 }
 
 .image-list:hover{
@@ -251,12 +256,13 @@
     width: 97px;
 }
 .load{
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 .contact-details .details{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    width: min(100%, 819px);
 }
 
 .contact-details .icon{
@@ -286,7 +292,7 @@ input{
     width: fit-content;
     margin-top: 15px;
     margin-left: auto;
-    font-size: 15px;
+    /* font-size: 15px; */
 }
 
 .footer-container{
@@ -315,8 +321,8 @@ input{
 }
 
 .contact-icons{
-    display: grid;
-    grid-template-columns: 1fr 13fr;
+    display: flex;
+    /* grid-template-columns: 1fr 13fr; */
     text-align: left;
 }
 
@@ -325,7 +331,7 @@ input{
 }
 
 .footer-icons{
-    font-size: 23px;
+    /* font-size: 23px; */
 }
 
 #left-nav{
@@ -335,11 +341,14 @@ input{
 .tea-cup{
     text-align: left;
     margin-top: 28px;
-    font-size: 13px;
+    /* font-size: 13px; */
     letter-spacing: 2px;
 }
 
-@media(max-width:970px) {
+@media (max-width: 700px) {
+    body{
+        background-color: blueviolet;
+    }
     #left-nav {
         background-color: white;
         position: absolute;
@@ -363,7 +372,7 @@ input{
         display: block;
     }
     .user-container{
-        grid-template-columns: repeat(1, 1fr);
+        /* grid-template-columns: repeat(1, 1fr); */
     }
     
     .body-container{
@@ -385,7 +394,7 @@ input{
         width: 100%;
     }
     .contact-icons{
-        font-size: 12px;
+        /* font-size: 12px; */
     }
     .image-stack{
         grid-template-columns: repeat(2,1fr);
