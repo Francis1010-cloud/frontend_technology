@@ -110,7 +110,8 @@
     /* padding: 5px 10px 5px 10px; */
     color: grey;
     margin: 5% 13%;
-    width: min(100%,800px);
+    width: min(100%,0);
+    /* 800px */
 }
 .body-text{
     padding: 1%;
@@ -127,7 +128,8 @@
     display: grid;
     /* grid-template-columns: repeat(2, 1fr); */
     /* gap: 2%; */
-    width: min(100%, 850px);
+    width: min(100%, 0);
+    /* 850px */
 }
 .user-data-section{
     text-align: left;
@@ -201,7 +203,7 @@
 
 .count-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr); */
     background-color: gray;
     padding: 3%;
     text-align: center;
@@ -210,6 +212,8 @@
     font-family: sans-serif;
     margin-top: 4%;
     gap: 6rem;
+    width: min(100%, 0);
+    /* 918px */
 }
 
 .font-14{
@@ -238,7 +242,8 @@
     display: grid;
     /* grid-template-columns: repeat(4,1fr); */
     gap: 10px;
-    width: min(100%, 918px);
+    width: min(100%, 0);
+    /* 918 */
 }
 
 .image-list:hover{
@@ -262,7 +267,8 @@
 .contact-details .details{
     /* display: grid;
     grid-template-columns: repeat(2,1fr); */
-    width: min(100%, 819px);
+    width: min(100%, 0);
+    /* 819 */
 }
 
 .contact-details .icon{
@@ -385,10 +391,10 @@ input{
         padding: 15px;
     }
     .count-container{
-        grid-template-columns: repeat(1,1fr);
+        /* grid-template-columns: repeat(1,1fr); */
     }
     .contact-details .details{
-        grid-template-columns: repeat(1,1fr);
+        /* grid-template-columns: repeat(1,1fr); */
     }
     .map-image{
         width: 100%;
@@ -397,7 +403,7 @@ input{
         /* font-size: 12px; */
     }
     .image-stack{
-        grid-template-columns: repeat(2,1fr);
+        /* grid-template-columns: repeat(2,1fr); */
     }
    .input-container{
      grid-template-areas: "name-input name-input "
