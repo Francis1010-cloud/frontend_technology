@@ -36,7 +36,7 @@
     color: white;
     font-family: "Lato", sans-serif;
     letter-spacing: 10px;
-    /* font-size: x-large; */
+    font-size: 2vw;
 }
 
 .navbar-container{
@@ -134,6 +134,7 @@
 .user-data-section{
     text-align: left;
     line-height: 27px;
+    margin-top: 2em;
 }
 .name-section{
     margin-bottom: 2%;
@@ -182,18 +183,18 @@
     padding-right: 1%;
 }
 .skill{
-    letter-spacing: 10px;
+    letter-spacing: 1em;
     text-align: left;
     /* font-size: medium; */
     padding: 13px 1px;
 }
 .loader-border{
     /* height: 2.5rem; */
-    width: 100%;
+    width: 80vw;
     background: #f1f1f1 !important;
 }
 .loader-bar{
-    /* height: 100%; */
+    height: 3vh;
     padding: 8px;
     background-color:#616161!important;
     color: white;
@@ -347,8 +348,8 @@ input{
 .tea-cup{
     text-align: left;
     margin-top: 28px;
-    /* font-size: 13px; */
-    letter-spacing: 2px;
+    font-size: 1vw;
+    letter-spacing: 1px;
 }
 
 @media (max-width: 700px) {
