@@ -9,63 +9,25 @@
     display: inline-flex;
 }
 
-@media (max-width: 600px) {
-    #left-nav {
-        background-color: white;
-        position: absolute;
-        top: 41px;
-        left: 0px;
-        right: 0px;
-        flex-direction: column;
-        text-align: center;
-        gap: 0;
-        display: none;
-    }
-    .search-icon{
-        display: none;
-    }
-    .menu-icon{
-        display: block;
-        /* background-color: black; */
-        color: gray;
-    }
-    .home-text{
-        display: block;
-    }
-    .user-container{
-        /* grid-template-columns: repeat(1, 1fr); */
-    }
-    
-    .body-container{
-        margin-top: 58px;
-    }
-    .skill{
-        padding: 20px 1px;
-    }
-    .loader-bar{
-        padding: 15px;
-    }
-    .count-container{
-        grid-template-columns: repeat(1,1fr);
-    }
-    .contact-details .details{
-        /* grid-template-columns: repeat(1,1fr); */
-    }
-    .map-image{
-        width: 100%;
-    }
-    .contact-icons{
-        /* font-size: 12px; */
-    }
-    .image-stack{
-        grid-template-columns: repeat(2,1fr);
-    }
-   .input-container{
-     grid-template-areas: "name-input name-input "
-                          "email-input email-input"
-                          "message-input message-input"
-   }
+.count-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: gray;
+    padding: 3%;
+    text-align: center;
+    color: white;
+    /* font-size: 16px; */
+    font-family: sans-serif;
+    margin-top: 4%;
+    gap: 6rem;
+    /* width: min(100%, 0); */
+    /* 918px */
 }
+
+.container{
+    width: fit-content;
+}
+
 
 
 .header-container{
@@ -246,10 +208,9 @@
     font-family: FontAwesome;
     padding-right: 1%;
 }
-.skill{
-    letter-spacing: 1em;
+    .skill{
+    letter-spacing: 7px;
     text-align: left;
-    font-size: 1em;
     padding: 13px 1px;
 }
 .loader-border{
@@ -258,7 +219,7 @@
     background: #f1f1f1 !important;
 }
 .loader-bar{
-    height: 3vh;
+    height: 7px;
     padding: 8px;
     background-color:#616161!important;
     color: white;
@@ -266,20 +227,7 @@
     font-family: sans-serif;
 }
 
-.count-container{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: gray;
-    padding: 3%;
-    text-align: center;
-    color: white;
-    /* font-size: 16px; */
-    font-family: sans-serif;
-    margin-top: 4%;
-    gap: 6rem;
-    /* width: min(100%, 0); */
-    /* 918px */
-}
+
 
 .font-14{
     /* font-size: 24px; */
@@ -319,7 +267,7 @@
 .load-button{
     /* position: relative; */
     background-color: #f1f1f1 !important;;
-    padding: 1rem;
+    padding: 6px;
     color: black;
     font-family: sans-serif;
     margin-top: 50px;
@@ -352,18 +300,18 @@
 
 input{
     border: 1px solid #ccc!important;
-    padding: px;
+    padding: 5px;
 }
 
 .send-button{
     display: flex;
-    padding: 1%;
+    padding: 6px;
     background: black;
     color: white;
     width: fit-content;
     margin-top: 15px;
     margin-left: auto;
-   font-size: 1em; 
+    font-size: small;
 }
 
 .footer-container{
@@ -411,6 +359,66 @@ input{
     margin-top: 28px;
     font-size: 1rem;
     letter-spacing: 1px;
+}
+
+.font-small{
+    font-size: smaller;
+}
+
+
+@media (max-width: 600px) {
+    #left-nav {
+        background-color: white;
+        position: absolute;
+        top: 41px;
+        left: 0px;
+        right: 0px;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        display: none;
+    }
+    .search-icon{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+        /* background-color: black; */
+        color: gray;
+    }
+    .home-text{
+        display: block;
+    }
+    .user-container{
+        /* grid-template-columns: repeat(1, 1fr); */
+    }
+    
+    .body-container{
+        margin-top: 58px;
+    }
+    .skill{
+        padding: 20px 1px;
+    }
+    .count-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .contact-details .details{
+        /* grid-template-columns: repeat(1,1fr); */
+    }
+    .map-image{
+        width: 100%;
+    }
+    .contact-icons{
+        /* font-size: 12px; */
+    }
+    .image-stack{
+        grid-template-columns: repeat(2,1fr);
+    }
+   .input-container{
+     grid-template-areas: "name-input name-input "
+                          "email-input email-input"
+                          "message-input message-input"
+   }
 }
 
 
