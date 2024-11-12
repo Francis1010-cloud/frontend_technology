@@ -3,14 +3,15 @@
 
 <head>
     <script src="Functionality.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="header-container">
+        <div class="header-container backgroud-image-prop positon-rel">
             <div class="navbar-container" id="navbar">
                 <div class="flex items-center">
                     <div class="font-class-1 font nav-text">HOME</div>
@@ -21,52 +22,173 @@
                         </div>
                         <div class="flex items-center font-class-1 font nav-text">
                             <div class="fa fa-th"></div>
-                            <div class="text-class">PORTFOLIO</div>
+                            <div class="text-class ">PORTFOLIO</div>
                         </div>
                         <div class="flex items-center font-class-1 font nav-text">
                             <div class="fa fa-envelope"></div>
                             <div class="text-class">CONTACT</div>
-    
+
                         </div>
                     </div>
-                
+
                 </div>
-                    <div class="text-class search-icon">
-                        <div class="fa fa-search flex items-center "></div>
-                    </div>
+                <div class="text-class search-icon">
+                    <div class="fa fa-search flex items-center "></div>
+                </div>
                 <div class="menu-icon nav-text text-class" onclick="OpenMenu()">
                     <i class="fa fa-bars"></i>
                 </div>
 
             </div>
-            <div class="center-logo">
+            <div class="center-logo background-clr-center">
                 MY WEBSITE LOGO
             </div>
         </div>
         <div class="body-container">
-            <div class="body-text font" style="font-size: 19px;font-weight: 500;">ABOUT ME</div>
+            <div class="body-text font">ABOUT ME</div>
             <div class="body-text" style="font-style: italic;">I love photography</div>
-            <div class="body-text" style="text-align: left;">We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <div class="body-text" style="text-align: left;">We have created a fictional "personal" website/blog, and
+                our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
         </div>
         <div class="flex user-container">
             <div class="user-photo-section">
-                <div class="name-section">My Name</div>
+                <div class="name-section">Jessica</div>
                 <div class="user-img"><img width="90%" src="Images/avatar_hat.jpg" alt="image"></div>
             </div>
             <div class="user-data-section">
-                Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Welcome to my website. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </div>
         </div>
         <div class="body-container skills-container">
             <div class="font" style="font-size: 18px;">Im really good at:</div>
             <div class="photography skill font">Photography</div>
-            <div class="loader-border"><div class="loader-bar flex items-center" style="width: 90%;">90%</div></div>
+            <div class="loader-border">
+                <div class="loader-bar flex items-center" style="width: 90%;">90%</div>
+            </div>
             <div class="webdesign skill font">Web Design</div>
-            <div class="loader-border"><div class="loader-bar flex items-center" style="width: 85%;">85%</div></div>
+            <div class="loader-border">
+                <div class="loader-bar flex items-center" style="width: 85%">85%</div>
+            </div>
             <div class="photoshop skill font">Photoshop</div>
-            <div class="loader-border"><div class="loader-bar flex items-center" style="width: 75%;">75%</div></div>
+            <div class="loader-border">
+                <div class="loader-bar flex items-center" style="width: 75%">75%</div>
+            </div>
         </div>
+        <div class="count-container font">
+            <div class="line-het-31">
+                <div class="font-14">14+</div>Partners
+            </div>
+            <div class="line-het-31">
+                <div class="font-14">55+</div>Projects Done
+            </div>
+            <div class="line-het-31">
+                <div class="font-14">89+</div>Happy Clients
+            </div>
+            <div class="line-het-31">
+                <div class="font-14">150+</div>Meeting
+            </div>
+        </div>
+        <div class="portfolio-container">
+            <div>PORTFOLIO</div>
+        </div>
+        <div class="body-container">
+            <div class="body-text font">MY WORK</div>
+            <div class="body-text" style="font-style: italic; margin: 0% 30px;">
+                Here are some of my latest lorem work ipsum tipsum.
+                Click on the images to make them bigger
+            </div>
+            <div class="image-stack">
+                <div class="image-list"><img width="100%" src="Images/mountain.jpg" alt="image"></div>
+                <div class="image-list"><img width="100%" src="Images/coffee-beans.jpg" alt="image"></div>
+                <div class="image-list"><img width="100%" src="Images/bear.jpg" alt="image"></div>
+                <div class="image-list"><img width="100%" src="Images/water.jpg" alt="image"></div>
+                <div class="image-list"><img width="100%" src="Images/sky.jpg" alt="image"></div>
+                <div class="image-list"><img width="100%" src="Images/typewriter.jpg" alt="image"></div>
+                <div class="image-list"><img width="100%" src="Images/window.jpg" alt="image"></div>
+                <div class="image-list"><img width="100%" src="Images/sea.jpg" alt="image"></div>
+            </div>
+            <div style="position: relative;height: 100px;">
+                <div class="load-button center-position">
+                    <div class="load">LOAD MORE</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="contact-container backgroud-image-prop">
+            <div class="">
+                CONTACT
+            </div>
+        </div>
+        <div class="contact-details body-container">
+            <div class="body-text font">WHERE I WORK</div>
+            <div class="body-text" style="font-style: italic; margin: 0% 30%;">
+                <em>I'd love your feedback!</em>
+            </div>
+            <div class="details">
+                <div>
+                    <div><img class="map-image" src="Images/map.jpg" alt="image"></div>
+                </div>
+                <div style="margin-top: 13px">
+                    <div>
+
+                        <div class="contact-icons font">
+                            <div class="icon fa fa-map-marker "></div>
+                            <div class="font-small">Chicago, US</div>
+                        </div>
+                        <div class="contact-icons font">
+                            <div class="icon fa fa-phone"></div>
+                            <div class="font-small"> Phone: +00 151515</div>
+                        </div>
+                        <div class="contact-icons font">
+                            <div class="icon fa fa-envelope"></div>
+                            <div class="font-small"> Email: mail@mail.com</div>
+                        </div>
+                    </div>
+                   
+                    <div class="font tea-cup">Swing by for a cup of <span class="fa fa-coffee"></span>, or leave me a note:</div>
+                    <div class="input-container">
+                        <input  style="grid-area: name-input" placeholder="Name">
+                        <input style="grid-area: email-input"  placeholder="Email">
+                        <input style="grid-area: message-input"  placeholder="Message">
+                </div>
+                <div class="send-button font">
+                    <div class="fa fa-paper-plane" style="margin-right: 7px;"></div>
+                    <div>SEND MESSAGE</div>
+                     </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-container">
+        <div class="center-position">
+        <div class="to-top font">
+           <div class="fa fa-arrow-up" style="margin-right: 7px;"   ></div>
+           <div onclick="topFunction()">To the Top</div>
+</div>
+<div class="footer-icons">
+   <div class="fa fa-facebook-official"></div>
+   <div class="fa fa-instagram"></div>
+   <div class="fa fa-snapchat"></div>
+   <div class="fa fa-pinterest"></div>
+   <div class="fa fa-twitter"></div>
+   <div class="fa fa-linkedin"></div>
+</div>
+        </div>
+    </div>
+
     </div>
 
 </body>

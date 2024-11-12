@@ -3,7 +3,6 @@ window.onscroll = function() {scrollFunction()};
 
 function OpenMenu(){
     var MenuBar = document.getElementById("left-nav")
-    console.log("MenuBar",MenuBar);
     MenuBar.style.display == "block" ? MenuBar.style.display = "none" : MenuBar.style.display = "block";
 }
 
@@ -16,6 +15,7 @@ function scrollFunction() {
     element.style.background = "white";
     element.style.color = "black";
     element.style.boxShadow="0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)";
+    element.style.top = "0"
 
   } else {
     element.style.top = "0px";
@@ -23,5 +23,15 @@ function scrollFunction() {
     element.style.color = "darkslategrey";
     element.style.boxShadow = "none";
   }
-  
 }
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+window.addEventListener('scroll', () => {
+  document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
+}, false);
+
+

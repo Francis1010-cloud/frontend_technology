@@ -1,0 +1,9 @@
+@media(max-width:600px) {
+    .count-container{
+        /* grid-template-columns: repeat(1, 1fr);    */
+        background-color: blue;
+    }
+    .skill{
+        padding: 40px
+    }
+}
