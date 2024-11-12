@@ -1,5 +1,5 @@
 
-
+html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ }
 
 .menu-icon{
     display: none;
