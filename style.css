@@ -266,12 +266,17 @@ html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ 
 
 .load-button{
     /* position: relative; */
-    background-color: #f1f1f1 !important;;
+    border-radius: 15px; 
     padding: 6px;
-    color: black;
+    color: white;
     font-family: sans-serif;
     margin-top: 50px;
     width: min(100%,97px);
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(323deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 88%);
+    background: -webkit-linear-gradient(323deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 88%);
+    background: linear-gradient(323deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 88%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
 }
 .load{
     /* font-size: 15px; */
@@ -305,8 +310,9 @@ input{
 
 .send-button{
     display: flex;
-    padding: 6px;
-    background: black;
+    padding: 10px;
+    border-radius: 15px; 
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     color: white;
     width: fit-content;
     margin-top: 15px;
@@ -332,11 +338,12 @@ input{
 }
 
 .footer-container .to-top{
-    background-color: #f1f1f1!important;
-    color: black;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
     display: flex;
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .contact-icons{

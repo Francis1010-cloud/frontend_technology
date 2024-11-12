@@ -28,6 +28,9 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+  const ele = document.getElementsByClassName("footer-container");
+  console.log("==",ele[0].getElementsByClassName("fa-arrow-up"));
+
 }
 
 window.addEventListener('scroll', () => {
