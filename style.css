@@ -241,7 +241,7 @@
 }
 .image-stack{
     display: grid;
-    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: repeat(4,1fr);
     gap: 10px;
     width: min(100%, 0);
     /* 918 */
@@ -404,7 +404,7 @@ input{
         /* font-size: 12px; */
     }
     .image-stack{
-        /* grid-template-columns: repeat(2,1fr); */
+        grid-template-columns: repeat(2,1fr);
     }
    .input-container{
      grid-template-areas: "name-input name-input "
