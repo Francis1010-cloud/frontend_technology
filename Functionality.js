@@ -17,6 +17,7 @@ function scrollFunction() {
     element.style.boxShadow="0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)";
     element.style.top = "0"
 
+    
   } else {
     element.style.top = "0px";
     element.style.background = "none";
