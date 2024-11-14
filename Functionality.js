@@ -27,15 +27,22 @@ function scrollFunction() {
 }
 
 function topFunction() {
+  popper();
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
   const ele = document.getElementsByClassName("footer-container");
-  console.log("==",ele[0].getElementsByClassName("fa-arrow-up"));
-
 }
 
 window.addEventListener('scroll', () => {
   document.body.style.setProperty('--scroll',window.pageYOffset / (document.body.offsetHeight - window.innerHeight));
 }, false);
+
+function popper(){
+  confetti({
+    particleCount: 1300,
+    spread: 70,
+    origin: { y: 0.6 },
+  });
+}
 
 
