@@ -114,7 +114,7 @@ html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ 
 .background-clr-center{
     background: linear-gradient(323deg, rgba(107, 135, 74, 1) 0%, rgba(61, 70, 60, 1) 37%, rgba(0, 212, 255, 1) 100%);
     border-radius:9px;
-    width: min(100%, 291px);
+    /* width: min(100%, 291px); */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -388,6 +388,9 @@ input{
         gap: 0;
         display: none;
     }
+    #left-nav div :hover{
+        background-color: lightgray;
+    }
     .search-icon{
         display: none;
     }
@@ -431,6 +434,10 @@ input{
    }
    .send-button{
     margin-right:auto;
+   }
+   .center-logo{
+        letter-spacing: 5px;
+        font-size: 10px;
    }
 }
 
