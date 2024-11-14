@@ -62,7 +62,7 @@ html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ 
     color: white;
     font-family: "Lato", sans-serif;
     letter-spacing: 10px;
-    font-size: 1rem;
+    font-size: calc(60% + 0.8vmin);
 }
 
 .navbar-container{
@@ -76,7 +76,7 @@ html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ 
 
 .font-class-1{
     font-variant: small-caps;
-    font-size: 78%;
+    font-size: calc(60% + 0.8vmin);
 }
 .font{
     font-family: "Lato", sans-serif;
@@ -103,20 +103,22 @@ html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ 
     padding: 1%;
 }
 .center-logo{
-    padding: 1%;
+    padding: 8px;
     color: white;
     font-family: "Lato", sans-serif;
     letter-spacing: 10px;
     /* font-size: x-large; */
+    white-space: nowrap;
+}
+
+.background-clr-center{
+    background: linear-gradient(323deg, rgba(107, 135, 74, 1) 0%, rgba(61, 70, 60, 1) 37%, rgba(0, 212, 255, 1) 100%);
+    border-radius:9px;
+    width: min(100%, 291px);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.background-clr-center{
-    background-color: black;
-    width: min(100%, 309px);
 }
 
 .center-position{
@@ -212,6 +214,7 @@ html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ 
     letter-spacing: 7px;
     text-align: left;
     padding: 13px 1px;
+    font-size:calc(83% + 0.8vmin)
 }
 .loader-border{
     /* height: 2.5rem; */
@@ -221,7 +224,7 @@ html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ 
 .loader-bar{
     height: 7px;
     padding: 8px;
-    background-color:#616161!important;
+    background:linear-gradient(323deg, rgba(135,74,96,1) 4%, rgba(72,74,70,1) 29%, rgba(59,74,65,1) 45%, rgba(61,70,60,1) 63%, rgba(0,212,255,1) 100%);
     color: white;
     justify-content: center;
     font-family: sans-serif;
@@ -317,7 +320,7 @@ input{
     width: fit-content;
     margin-top: 15px;
     margin-left: auto;
-    font-size: small;
+    font-size: calc(60% + 0.8vmin);
 }
 
 .footer-container{
@@ -364,12 +367,12 @@ input{
 .tea-cup{
     text-align: left;
     margin-top: 28px;
-    font-size: 1rem;
+    font-size: calc(60% + 0.8vmin);
     letter-spacing: 1px;
 }
 
 .font-small{
-    font-size: smaller;
+    font-size: calc(75% + 0.8vmin);
 }
 
 
@@ -425,6 +428,9 @@ input{
      grid-template-areas: "name-input name-input "
                           "email-input email-input"
                           "message-input message-input"
+   }
+   .send-button{
+    margin-right:auto;
    }
 }
 
