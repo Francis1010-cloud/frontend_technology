@@ -42,6 +42,7 @@ html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ 
     margin-bottom: 20px;
     animation-name: header-background;
     animation-duration: 2s;
+    border-radius: 0px 0px 40px 40px;
 }
 
 .positon-rel{
@@ -70,6 +71,7 @@ html { scroll-behavior: smooth; /* Enables smooth scrolling for the document */ 
     /* font-size: larger; */
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 
 
@@ -330,6 +332,7 @@ input{
     position: relative;
     height: 300px;
     cursor: pointer;
+    border-radius: 30px 30px 0px 0px;
 }
 .footer-container:hover{
     opacity: 1;
